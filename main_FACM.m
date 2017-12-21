@@ -1,7 +1,7 @@
 % This project demonstrates the texture segmentation method in paper:
 %   "A factorization based active contour model for texture segmentation", 
 %   Mingqi Gao, Hengxin Chen, Shenhai Zheng, Bin Fang, 
-%   IEEE International Conference on Image Processing, pp 4309-4313, 2016
+%   IEEE International Conference on Image Processing, pp 4309-4313, 2016.
 
 % Main References in our project: 
 % [1] Yuan J, Wang D, Cheriyadat A M, 
@@ -12,7 +12,7 @@
 %    IEEE Conference on Computer Vision and Pattern Recognition, pp.430-436, 2005.
 clc, clear all, close all;
 
-I = imread('images/S3.jpg');
+I = imread('images/S1_x.jpg');
 if size(I, 3) > 1
     I = rgb2gray(I);
 end
