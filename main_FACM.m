@@ -35,9 +35,10 @@ windowsize = 20;      % Window size during computing Spectrum histograms.
 % m = roipoly;  % select a polygonal region by hand;
 % phi = bwdist(m) - bwdist(1-m) + im2double(m) - .5;  % compute SDF according to m;
 %--- Load existing initial contour
-load('initial contours/init_contour1.mat');  % circle contour
+load('initial_contours/init_contour1.mat');  % circle contour
 % load('initial contours/init_contour2.mat');    % 9 even-distributed retangle contours
 phi = imresize(phi, size(u0));
+phi = double(phi);
 
 % Show input image and initial contour.
 subplot(1, 2, 1), imshow(u0, []);
