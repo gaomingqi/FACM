@@ -11,7 +11,7 @@ To use FACM as academic purpose, please cite this paper. Some details about it c
 [Level Set Evolution without Re-Initialization: A New Variational Formulation](http://ieeexplore.ieee.org/document/1467299/). Chunming Li, Chenyang Xu, Changfeng Gui, and Martin D. Fox. IEEE CVPR, 2005.
 
 ## Usage
-* The test images are placed in "images" folder;
+* Test images are placed in "images" folder;
 * You can load the existing initial contours from "initial contours" folder or select a polygonal region by hand;
 * Also, you can record the evolution process of active contours in a GIF file;
 * Segmentation results will be saved in "results" folder;
