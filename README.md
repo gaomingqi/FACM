@@ -2,7 +2,7 @@
 A MATLAB implementation for the texture segmentation method in paper:   
 >[A factorization based active contour model for texture segmentation](http://ieeexplore.ieee.org/document/7533173/), Mingqi Gao, Hengxin Chen, Shenhai Zheng, Bin Fang, IEEE International Conference on Image Processing (ICIP 2016).    
 
-To use FACM as academic purpose, please cite this paper. Some details about it can be found in [my project page](https://mingqigao.com/projects/ACM/FACM/).
+To use FACM as academic purpose, please cite this paper. Some details about it can be found in [my project page](https://mingqigao.com/projects/ACM/FACM).
 
 ## Statement
 1. In this project, the extraction of texture features from given image is based on the theory proposed by Jiangye Yuan, Deliang Wang et al:  
